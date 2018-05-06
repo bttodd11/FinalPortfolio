@@ -7,12 +7,23 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Handlee" rel="stylesheet">
   <link rel="stylesheet" href="css/stylesheet.css" type="text/css">
-  </head>
-  <div class="header">
-    Brian Todd <br>
-    Austin, TX <br>
-    Web Developer
+  <script type="text/javascript" src="lib/typed.js"></script>
+  <div id="typed-strings">
+    <p>I AM A DALLAS,TX PRODUCT</p>
+
   </div>
+  <span id="header"></span>
+  <script>
+    var typed = new Typed('#header', {
+      stringsElement: '#typed-strings',
+      typeSpeed: 75,
+      backSpeed: 50,
+      smartBackspace: true,
+      backDelay: 1000,
+      startDelay: 2000,
+      showCursor: false,
+    });
+  </script>
   <body>
     <div class="container">
   <div class="row">
@@ -28,6 +39,9 @@
   </div>
 </div>
 </div>
+<footer class="footer">
+    <small>&copy; Copyright 2018, Brian Todd</small>
+</footer>
   </body>
 
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
