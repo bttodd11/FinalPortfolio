@@ -14,16 +14,26 @@
 
 /* // Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
+
 #header{
-  font-size: 60px;
+  font-size: 40px;
   letter-spacing: 3px;
   font-family: 'Handlee', cursive;
-  margin-bottom: 6%;
+}
+.header2{
+  font-size: 70px;
+  letter-spacing: 3px;
+  font-family: 'Handlee', cursive;
+  text-align: center;
+  
 }
 .etc{
   width:280px;
   height:280px;
   border-radius: 50%;
+}
+.container{
+margin-bottom: 15%;
 }
 .btt{
   width:280px;
